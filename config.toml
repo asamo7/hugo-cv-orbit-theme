@@ -48,7 +48,7 @@ disable404 = true
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: asamo7@gmail.com"
+        url = "mailto:asamo7@gmail.com"
         title = "asamo7@gmail.com"
 
         [[params.contact.list]]
@@ -147,10 +147,10 @@ disable404 = true
         interest = "Activitats en família"
 
         [[params.interests.list]]
-        interest = "Esports"
+        interest = "Esports i tecnologia"
 
-        [[params.interests.list]]
-        interest = "Tecnologia"
+        #[[params.interests.list]]
+        #interest = "Tecnologia"
 
 # Main body sections
 
