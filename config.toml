@@ -1,10 +1,10 @@
 # Page settings
 
 baseurl = "https://cv-asamo7.netlify.com/"
-languageCode = "es-ca"
+languageCode = "ca"
 title = "Albert Sancho CV"
 theme = "hugo-orbit-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
+#googleAnalytics = "UA-XXXXXXX-Y"
 
 # Do not build files for websites. Need them? Set to false
 disableRSS = true
@@ -39,16 +39,22 @@ disable404 = true
         enable = true
 
         [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel: 687045324"
+        title = "687045324"
+
+        [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
         url = "mailto: asamo7@gmail.com"
         title = "asamo7@gmail.com"
 
         [[params.contact.list]]
-        class = "phone"
-        icon = "fa-phone"
-        url = "tel: 687045324"
-        title = "687045324"
+        class = "twitter"
+        icon = "fa-twitter"
+        url = "//twitter.com/asamo7"
+        title = "@asamo7"
 
         #[[params.contact.list]]
         #class = "website"
@@ -68,12 +74,6 @@ disable404 = true
         #url = "//github.com/asamo7"
         #title = "github.com/asamo7"
 
-        [[params.contact.list]]
-        class = "twitter"
-        icon = "fa-twitter"
-        url = "//twitter.com/asamo7"
-        title = "@asamo7"
-
     # Education section
     [params.education]
         enable = true
@@ -92,7 +92,7 @@ disable404 = true
     # Languages section
     [params.language]
         enable = true
-        title = "Languages"
+        title = "Idiomes"
 
         [[params.language.list]]
         language = "Català"
@@ -142,19 +142,19 @@ disable404 = true
         position = "IT Architect"
         dates = "2012 - Actualitat"
         company = "openTrends, Barcelona"
-        details = "* Responsable tecnològic de l’àrea d’arquitectura de TICxCAT en el manteniment, evolució i nous projectes desenvolupats pel CTTI. Suport a la definició de l'estratègia DevOps.* Des de 2016, responsable de la nova OT Suport Cloud destinada al suport tecnològic per al desplegament d‘aplicacions en entorns Cloud."
+        details = "* Responsable tecnològic de l’àrea d’arquitectura de TICxCAT en el manteniment, evolució i nous projectes desenvolupats pel CTTI. Suport a la definició de l'estratègia DevOps.\n* Des de 2016, responsable de la nova OT Suport Cloud destinada al suport tecnològic per al desplegament d‘aplicacions en entorns Cloud."
 
         [[params.jobs.list]]
         position = "Software Engineer"
         dates = "2007 - 2012"
         company = "openTrends, Barcelona"
-        details = "* Responsable tècnic i funcional del projecte de Governança radioelèctrica per al CTTI.* Responsable tècnic i funcional dels projectes de Estadístiques anuals i Butlletí de conjuntura energètica de Catalunya per l’ICAEN.* Responsable tècnic i funcional del projecte Linneo per el Grupo Godó.* Suport tècnic al desenvolupament de projectes amb openFrame per Danone.* Evolució de l'aplicació SAMC (Plataforma d'enviament de trameses) amb el mòdul de signatura de correus ASF per la Diputació de Barcelona.* Anàlisi i desenvolupament del projecte SGTFNM (Sistema de Gestió de Títols de Família Nombrosa i Monoparental) pel Departament de Benestar Social i Família."
+        details = "* Responsable tècnic i funcional del projecte de Governança radioelèctrica per al CTTI.\n* Responsable tècnic i funcional dels projectes de Estadístiques anuals i Butlletí de conjuntura energètica de Catalunya per l’ICAEN.\n* Responsable tècnic i funcional del projecte Linneo per el Grupo Godó.\n* Suport tècnic al desenvolupament de projectes amb openFrame per Danone.\n* Evolució de l'aplicació SAMC (Plataforma d'enviament de trameses) amb el mòdul de signatura de correus ASF per la Diputació de Barcelona.\n* Anàlisi i desenvolupament del projecte SGTFNM (Sistema de Gestió de Títols de Família Nombrosa i Monoparental) pel Departament de Benestar Social i Família."
 
         [[params.jobs.list]]
         position = "Analista programador Java/JEE"
         dates = "2005 - 2007"
         company = "Atos Origin, Barcelona"
-        details = "* Evolució/Manteniment del Framework JEE Canigó de la Generalitat de Catalunya.* Anàlisi i desenvolupament dels projectes Gestió Acadèmica per l’Escola de Policia en Canigó i del Nou Model d’OC’s i ITV’s del Departament d'Indústria de la Generalitat."
+        details = "* Evolució/Manteniment del Framework JEE Canigó de la Generalitat de Catalunya.\n* Anàlisi i desenvolupament dels projectes Gestió Acadèmica per l’Escola de Policia en Canigó i del Nou Model d’OC’s i ITV’s del Departament d'Indústria de la Generalitat."
 
         [[params.jobs.list]]
         position = "Programador Java/JEE"
