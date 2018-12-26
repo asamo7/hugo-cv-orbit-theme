@@ -266,11 +266,15 @@ disable404 = true
         level = "98%"
 
         [[params.skills.list]]
-        skill = "<>aaS: PaaS (Cloud Foundry), DBaaS (Compose, Atlas), SaaS (Algolia)"
+        skill = "Serveis: PaaS (Cloud Foundry), DBaaS (Compose, Atlas), SaaS (Algolia)"
         level = "98%"
 
         [[params.skills.list]]
         skill = "Gestió de projectes: Atlassian JIRA, Redmine"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Formularis electrònics: Adobe Experience Manager, Orbeon, Form.io"
         level = "98%"
 
         [[params.skills.list]]
@@ -287,11 +291,11 @@ disable404 = true
 
         [[params.skills.list]]
         skill = "Bases de dades: MySQL, Oracle, PostgreSQL, SQL Server"
-        level = "75%"
+        level = "85%"
 
         [[params.skills.list]]
         skill = "Web: HTML5, CSS3, Javascript, JQuery"
-        level = "75%"
+        level = "85%"
 
         [[params.skills.list]]
         skill = "Generadors de webs estàtiques: Hugo"
