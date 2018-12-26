@@ -14,8 +14,8 @@ disable404 = true
 [params]
 
 # Meta
-    description = "Hugo Responsive Resume/CV Theme for Developers"
-    author = "Pavel Kanyshev"
+    description = "Albert Sancho CV"
+    author = "Albert Sancho"
 
 # Theme styles
 
@@ -77,17 +77,17 @@ disable404 = true
     # Education section
     [params.education]
         enable = true
-        title = "Educació"
+        title = "Titulacions"
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        college = "University of London"
-        dates = "2006 - 2010"
+        degree = "Enginyeria tècnica en Informàtica de Sistemes"
+        college = "FIB (Facultat d'Informàtica de Barcelona)"
+        dates = "1998 - 2004"
 
         [[params.education.list]]
-        degree = "BSc in Applied Mathematics"
-        college = "Bristol University"
-        dates = "2007 - 2011"
+        degree = "Enginyeria Informàtica (segon cicle)"
+        college = "UOC (Universitat Oberta de Catalunya)"
+        dates = "2005 - no finalitzat"
 
     # Languages section
     [params.language]
@@ -95,30 +95,31 @@ disable404 = true
         title = "Languages"
 
         [[params.language.list]]
-        language = "English"
-        level = "Native"
+        language = "Català"
+        level = "Natiu"
 
         [[params.language.list]]
-        language = "French"
-        level = "Professional"
+        language = "Castellà"
+        level = "Natiu"
 
         [[params.language.list]]
-        language = "Russian"
-        level = "Professional"
+        language = "Anglès"
+        level = "Profesional"
+
 
     # Interests section
     [params.interests]
         enable = true
-        title = "Interests"
+        title = "Aficions"
 
         [[params.interests.list]]
-        interest = "Climbing"
+        interest = "Activitats en família"
 
         [[params.interests.list]]
-        interest = "Snowboarding"
+        interest = "Esports"
 
         [[params.interests.list]]
-        interest = "Cooking"
+        interest = "Tecnologia"
 
 # Main body sections
 
@@ -128,8 +129,8 @@ disable404 = true
     [params.summary]
         enable = true
         icon = "fa-user"
-        title = "Career Profile"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+        title = "Perfil"
+        summary = "Arquitecte amb més de 15 anys d'experiència havent desenvolupat diferents funcions tant de gestió com tècniques. Responsable de les oficines tècniques de Solucions d'Arquitectura i Suport Cloud d'Arquitectura CTTI durant els 6 darrers anys. Apassionat de la tecnologia, sempre amb ganes d'aprendre i col·laborar per a l'èxit dels projectes."
 
     # Experiences section
     [params.experiences]
@@ -138,33 +139,52 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Lead Developer"
-        dates = "2015 - Present"
-        company = "Startup Hubs, San Francisco"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        position = "IT Architect"
+        dates = "2012 - Actualitat"
+        company = "openTrends, Barcelona"
+        details = "Responsable tecnològic de l’àrea d’arquitectura de TICxCAT en el manteniment, evolució i nous projectes desenvolupats pel CTTI. Suport a la definició de l'estratègia DevOps.
+        Des de 2016, responsable de la nova OT Suport Cloud destinada al suport tecnològic per al desplegament d‘aplicacions en entorns Cloud."
 
         [[params.jobs.list]]
-        position = "Senior Software Engineer"
-        dates = "2014 - 2015"
-        company = "Google, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Software Engineer"
+        dates = "2007 - 2012"
+        company = "openTrends, Barcelona"
+        details = "Responsable tècnic i funcional del projecte de Governança radioelèctrica per al CTTI.
+        Responsable tècnic i funcional dels projectes de Estadístiques anuals i Butlletí de conjuntura energètica de Catalunya per l’ICAEN.
+        Responsable tècnic i funcional del projecte Linneo per el Grupo Godó.
+        Suport tècnic al desenvolupament de projectes amb openFrame per Danone.
+        Evolució de l'aplicació SAMC (Plataforma d'enviament de trameses) amb el mòdul de signatura de correus ASF per la Diputació de Barcelona.
+        Anàlisi i desenvolupament del projecte SGTFNM (Sistema de Gestió de Títols de Família Nombrosa i Monoparental) pel Departament de Benestar Social i Família."
 
         [[params.jobs.list]]
-        position = "UI Developer"
-        dates = "2012 - 2014"
-        company = "Amazon, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Analista programador Java/JEE"
+        dates = "2005 - 2007"
+        company = "Atos Origin, Barcelona"
+        details = "Evolució/Manteniment del Framework JEE Canigó de la Generalitat de Catalunya.
+        Anàlisi i desenvolupament dels projectes Gestió Acadèmica per l’Escola de Policia en Canigó i del Nou Model d’OC’s i ITV’s del Departament d'Indústria de la Generalitat."
+
+        [[params.jobs.list]]
+        position = "Programador Java/JEE"
+        dates = "2005"
+        company = "Informàtica Mèdica SL, Barcelona"
+        details = "Desenvolupament de l’aplicació JEE CAPSIS per Centres d’assistència primària."
+
+        [[params.jobs.list]]
+        position = "Programador junior Java/JEE"
+        dates = "2003 - 2005"
+        company = "Eina Informàtica, Barcelona"
+        details = "Col·laboració en el desenvolupament d'una eina CASE distribuïda com a projecte de final de carrera."
 
     # Projects section
     [params.projects]
         enable = true
         icon = "fa-archive"
-        title = "Projects"
-        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+        title = "Projectes"
+        intro = "A continuació es mostra un resum dels projectes més rellevants en els que he participat:"
 
         [[params.projects.list]]
         title = "Hugrid"
-        url = "https://github.com/aerohub/hugrid"
+        #url = "https://github.com/aerohub/hugrid"
         tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
 
         [[params.projects.list]]
@@ -191,30 +211,30 @@ disable404 = true
     [params.skills]
         enable = true
         icon = "fa-rocket"
-        title = "Skills & Proficiency"
+        title = "Especialitats"
 
         [[params.skills.list]]
-        skill = "Python & Django"
+        skill = "Java/JEE"
         level = "98%"
+
+        [[params.skills.list]]
+        skill = "Spring Framework"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Integració continua"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Cloud"
+        level = "95%"
 
         [[params.skills.list]]
         skill = "Javascript & jQuery"
-        level = "98%"
-
-        [[params.skills.list]]
-        skill = "Angular"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = "HTML5 & CSS"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = "Ruby on Rails"
         level = "75%"
 
         [[params.skills.list]]
-        skill = "Sketch & Photoshop"
+        skill = "Angular"
         level = "60%"
 
     # Footer section
