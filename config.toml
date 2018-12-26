@@ -2,6 +2,7 @@
 
 baseurl = "https://cv-asamo7.netlify.com/"
 languageCode = "ca"
+defaultContentLanguage = "ca"
 title = "Albert Sancho CV"
 theme = "hugo-orbit-theme"
 #googleAnalytics = "UA-XXXXXXX-Y"
@@ -81,13 +82,43 @@ disable404 = true
 
         [[params.education.list]]
         degree = "Enginyeria tècnica en Informàtica de Sistemes"
-        college = "FIB (Facultat d'Informàtica de Barcelona)"
+        college = "FIB"
         dates = "1998 - 2004"
 
         [[params.education.list]]
         degree = "Enginyeria Informàtica (segon cicle)"
-        college = "UOC (Universitat Oberta de Catalunya)"
+        college = "UOC"
         dates = "2005 - no finalitzat"
+
+        [[params.education.list]]
+        degree = "SCJP (Sun Certified Java Programmer)"
+        college = "Sun microsystems"
+        dates = "2008"
+
+        [[params.education.list]]
+        degree = "SCWCD (Sun Certified Web Component Developer)"
+        college = "Sun microsystems"
+        dates = "2009"
+
+        [[params.education.list]]
+        degree = "M101JS (MongoDB for Node.js Developers)"
+        college = "MongoDB University"
+        dates = "2013"
+
+        [[params.education.list]]
+        degree = "ITIL Foundation Certificate"
+        college = "APMG International"
+        dates = "2016"
+
+        [[params.education.list]]
+        degree = "Professional Scrum Master I"
+        college = "Scrum.org"
+        dates = "2017"
+
+        [[params.education.list]]
+        degree = "Microservices with Spring Cloud"
+        college = "Udemy"
+        dates = "2017"
 
     # Languages section
     [params.language]
@@ -130,7 +161,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Perfil"
-        summary = "Arquitecte amb més de 15 anys d'experiència havent desenvolupat diferents funcions tant de gestió com tècniques. Responsable de les oficines tècniques de Solucions d'Arquitectura i Suport Cloud d'Arquitectura CTTI durant els 6 darrers anys. Apassionat de la tecnologia, sempre amb ganes d'aprendre i col·laborar per a l'èxit dels projectes."
+        summary = "Arquitecte amb més de 15 anys d'experiència havent desenvolupat diferents funcions tant de gestió com tècniques. Responsable de les oficines tècniques de Solucions d'Arquitectura i Suport Cloud d'Arquitectura CTTI durant els 6 darrers anys. Apassionat de la tecnologia, sempre amb ganes d'aprendre i col·laborar per a l'èxit dels projectes. Especialment interessat en els camps d'**arquitectura d'aplicacions, Cloud i DevOps**."
 
     # Experiences section
     [params.experiences]
@@ -170,7 +201,7 @@ disable404 = true
 
     # Projects section
     [params.projects]
-        enable = true
+        enable = false
         icon = "fa-archive"
         title = "Projectes"
         intro = "A continuació es mostra un resum dels projectes més rellevants en els que he participat:"
@@ -204,30 +235,74 @@ disable404 = true
     [params.skills]
         enable = true
         icon = "fa-rocket"
-        title = "Especialitats"
+        title = "Coneixements"
 
         [[params.skills.list]]
-        skill = "Java/JEE"
+        skill = "Java: JEE, Spring Framework, Struts, JHipster"
         level = "98%"
 
         [[params.skills.list]]
-        skill = "Spring Framework"
+        skill = "Patrons Arquitectura: SOA, Microserveis, REST API, WS, MVC"
         level = "98%"
 
         [[params.skills.list]]
-        skill = "Integració continua"
+        skill = "Seguretat: JWT (Json Web Token), SAML 2.0"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "CI: Jenkins, Go"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "SCM: Git, SVN, CVS"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Plataformes Cloud: IBM Bluemix, Azure, Openshift"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Contenidors: Docker, Swarm, Kubernetes"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "<>aaS: PaaS (Cloud Foundry), DBaaS (Compose, Atlas), SaaS (Algolia)"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Gestió de projectes: Atlassian JIRA, Redmine"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Metodologies: SCRUM, Agile, ITIL"
         level = "95%"
 
         [[params.skills.list]]
-        skill = "Cloud"
+        skill = "Servidors d'aplicacions: JBoss, Weblogic, Tomcat"
         level = "95%"
 
         [[params.skills.list]]
-        skill = "Javascript & jQuery"
+        skill = "Servidors web: Apache, NGinx"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Bases de dades: MySQL, Oracle, PostgreSQL, SQL Server"
+        level = "75%"
+
+        [[params.skills.list]]
+        skill = "Web: HTML5, CSS3, Javascript, JQuery"
+        level = "75%"
+
+        [[params.skills.list]]
+        skill = "Generadors de webs estàtiques: Hugo"
         level = "75%"
 
         [[params.skills.list]]
         skill = "Angular"
+        level = "60%"
+
+        [[params.skills.list]]
+        skill = "Altres llenguatges: NodeJS, Golang"
         level = "60%"
 
     # Footer section
