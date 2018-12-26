@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "https://asamo7.github.io/cv"
+baseurl = "https://cv-asamo7.netlify.com/"
 languageCode = "es-ca"
 title = "Albert Sancho CV"
 theme = "hugo-orbit-theme"
