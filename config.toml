@@ -100,10 +100,10 @@ disable404 = true
         college = "Sun microsystems"
         dates = "2009"
 
-        [[params.education.list]]
-        degree = "M101JS (MongoDB for Node.js Developers)"
-        college = "MongoDB University"
-        dates = "2013"
+        #[[params.education.list]]
+        #degree = "M101JS (MongoDB for Node.js Developers)"
+        #college = "MongoDB University"
+        #dates = "2013"
 
         [[params.education.list]]
         degree = "ITIL Foundation Certificate"
@@ -115,10 +115,10 @@ disable404 = true
         college = "Scrum.org"
         dates = "2017"
 
-        [[params.education.list]]
-        degree = "Microservices with Spring Cloud"
-        college = "Udemy"
-        dates = "2017"
+        #[[params.education.list]]
+        #degree = "Microservices with Spring Cloud"
+        #college = "Udemy"
+        #dates = "2017"
 
     # Languages section
     [params.language]
