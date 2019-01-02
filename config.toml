@@ -161,7 +161,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Perfil"
-        summary = "Arquitecte amb més de 15 anys d'experiència havent desenvolupat diferents funcions tant de gestió com tècniques. Responsable de les oficines tècniques de Solucions d'Arquitectura i Suport Cloud d'Arquitectura CTTI durant els 6 darrers anys. Apassionat de la tecnologia, sempre amb ganes d'aprendre i col·laborar per a l'èxit dels projectes. Especialment interessat en els camps d'**arquitectura d'aplicacions, Cloud i DevOps**."
+        summary = "Arquitecte amb més de 15 anys d'experiència havent desenvolupat diferents funcions tant de gestió com tècniques. Responsable de les oficines tècniques de Solucions d'Arquitectura i Suport Cloud de CTTI durant els 6 darrers anys. Apassionat de la tecnologia, sempre amb ganes d'aprendre i col·laborar per a l'èxit dels projectes. Especialment interessat en els camps d'**arquitectura d'aplicacions, Cloud i DevOps**."
 
     # Experiences section
     [params.experiences]
@@ -238,51 +238,11 @@ disable404 = true
         title = "Coneixements"
 
         [[params.skills.list]]
-        skill = "Java: JEE, Spring Framework, Struts, JHipster"
-        level = "98%"
-
-        [[params.skills.list]]
-        skill = "Patrons Arquitectura: SOA, Microserveis, REST API, WS, MVC"
-        level = "98%"
-
-        [[params.skills.list]]
-        skill = "Seguretat: JWT (Json Web Token), SAML 2.0"
-        level = "98%"
-
-        [[params.skills.list]]
-        skill = "CI: Jenkins, Go"
-        level = "98%"
-
-        [[params.skills.list]]
-        skill = "SCM: Git, SVN, CVS"
-        level = "98%"
-
-        [[params.skills.list]]
-        skill = "Plataformes Cloud: IBM Bluemix, Azure, Openshift"
-        level = "98%"
-
-        [[params.skills.list]]
-        skill = "Contenidors: Docker, Swarm, Kubernetes"
-        level = "98%"
-
-        [[params.skills.list]]
-        skill = "Serveis: PaaS (Cloud Foundry), DBaaS (Compose, Atlas), SaaS (Algolia)"
-        level = "98%"
-
-        [[params.skills.list]]
-        skill = "Gestió de projectes: Atlassian JIRA, Redmine"
-        level = "98%"
-
-        [[params.skills.list]]
-        skill = "Formularis electrònics: Adobe Experience Manager, Orbeon, Form.io"
-        level = "98%"
-
-        [[params.skills.list]]
-        skill = "Metodologies: SCRUM, Agile, ITIL"
+        skill = "Java: Spring Framework, JHipster, JEE, Struts"
         level = "95%"
 
         [[params.skills.list]]
-        skill = "Servidors d'aplicacions: JBoss, Weblogic, Tomcat"
+        skill = "Servidors d'aplicacions: Tomcat, Jetty, JBoss, Weblogic"
         level = "95%"
 
         [[params.skills.list]]
@@ -290,24 +250,72 @@ disable404 = true
         level = "95%"
 
         [[params.skills.list]]
+        skill = "Patrons Arquitectura: SOA, Microserveis, REST API, WS, MVC"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Seguretat: JWT (Json Web Token), SAML 2.0"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "CI: Jenkins, Go"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "SCM: Git, SVN, CVS"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Plataformes Cloud: IBM Bluemix, Azure, Openshift"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Contenidors: Docker, Swarm, Kubernetes"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Serveis: PaaS (Cloud Foundry), DBaaS (Compose, Atlas), SaaS (Algolia)"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Gestió de projectes: Atlassian JIRA, Redmine"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Formularis electrònics: Adobe Experience Manager, Orbeon, Form.io"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Metodologies: SCRUM, Agile, ITIL"
+        level = "70%"
+
+        [[params.skills.list]]
         skill = "Bases de dades: MySQL, Oracle, PostgreSQL, SQL Server"
-        level = "85%"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "Traces i monitorització: Elasticsearch, Zipkin, Prometheus"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "Anàlisi de qualitat/seguretat: Sonar, Kiuwan, Fortify, OWASP ZAP i DependencyCheck "
+        level = "70%"
 
         [[params.skills.list]]
         skill = "Web: HTML5, CSS3, Javascript, JQuery"
-        level = "85%"
+        level = "70%"
 
         [[params.skills.list]]
         skill = "Generadors de webs estàtiques: Hugo"
-        level = "75%"
-
-        [[params.skills.list]]
-        skill = "Angular"
-        level = "60%"
+        level = "70%"
 
         [[params.skills.list]]
         skill = "Altres llenguatges: NodeJS, Golang"
-        level = "60%"
+        level = "50%"
+
+        [[params.skills.list]]
+        skill = "Angular"
+        level = "30%"
 
     # Footer section
 
