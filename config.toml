@@ -317,6 +317,12 @@ disable404 = true
         skill = "Angular"
         level = "30%"
 
+    # Recommendations section
+    [params.recommendations]
+        enable = true
+        icon = "fa-rocket"
+        title = "Recomanacions"
+
     # Footer section
 
     # The original template is released under the Creative Commons Attribution 3.0 License.
