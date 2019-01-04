@@ -319,7 +319,7 @@ disable404 = true
 
     # Recommendations section
     [params.recommendations]
-        enable = true
+        enable = false
         icon = "fa-rocket"
         title = "Recomanacions"
 
