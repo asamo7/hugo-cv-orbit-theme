@@ -3,8 +3,8 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 
 # These lines should *not* be indented
-media_folder: "static/assets/images/recommendations" # Media files will be stored in the repo under static/assets/images
-public_folder: "/assets/images/recommendations" # The src attribute for uploaded media will begin with /assets/images
+media_folder: "content/uploads" # Media files will be stored in the repo under static/assets/images
+public_folder: "/uploads" # The src attribute for uploaded media will begin with /assets/images
 #publish_mode: editorial_workflow
 
 collections: # A list of collections the CMS should be able to edit
