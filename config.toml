@@ -171,7 +171,13 @@ disable404 = true
 
         [[params.jobs.list]]
         position = "IT Architect"
-        dates = "2012 - Actualitat"
+        dates = "2019 - Actualitat"
+        company = "UOC (Universitat Oberta de Catalunya)"
+        details = "* Responsable de les plataformes CI/CD i LowCode de la UOC..."
+
+        [[params.jobs.list]]
+        position = "Software & DevOps/Cloud Architect"
+        dates = "2012 - 2019"
         company = "openTrends, Barcelona"
         details = "* Responsable tecnològic de l’àrea d’arquitectura de TICxCAT en el manteniment, evolució i nous projectes desenvolupats pel CTTI. Suport a la definició de l'estratègia DevOps.\n* Des de 2016, responsable de la nova OT Suport Cloud destinada al suport tecnològic per al desplegament d‘aplicacions en entorns Cloud."
 
