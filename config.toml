@@ -120,6 +120,11 @@ disable404 = true
         #college = "Udemy"
         #dates = "2017"
 
+        #[[params.education.list]]
+        #degree = "Architecture Workshop"
+        #college = "OutSystems"
+        #dates = "2022"
+
     # Languages section
     [params.language]
         enable = true
@@ -173,7 +178,7 @@ disable404 = true
         position = "IT Architect"
         dates = "2019 - Actualitat"
         company = "UOC (Universitat Oberta de Catalunya)"
-        details = "* Responsable de les plataformes CI/CD i LowCode de la UOC..."
+        details = "* Responsable de l'ecosistema DevOps i LowCode de la UOC, així com referent d'arquitectura del Grup Operatiu de Gestió Acadèmica i Docent. "
 
         [[params.jobs.list]]
         position = "Software & DevOps/Cloud Architect"
