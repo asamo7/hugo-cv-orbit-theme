@@ -258,9 +258,6 @@ disable404 = true
         icon = "fa-rocket"
         title = "Coneixements"
 
-        [[params.skills.group]]
-        name = "DevOps"
-
         [[params.skills.list]]
         skill = "Java: Spring Framework, JHipster, JEE, Struts"
         level = "95%"
