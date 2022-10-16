@@ -121,6 +121,21 @@ disable404 = true
         #dates = "2017"
 
         #[[params.education.list]]
+        #degree = "Azure Architect Beginner"
+        #college = "Microsoft"
+        #dates = "2019"
+
+        #[[params.education.list]]
+        #degree = "Developing on AWS"
+        #college = "CSUC"
+        #dates = "2019"
+
+        #[[params.education.list]]
+        #degree = "Advanced Architecting on AWS"
+        #college = "IT Institute"
+        #dates = "2020"
+
+        #[[params.education.list]]
         #degree = "Architecture Workshop"
         #college = "OutSystems"
         #dates = "2022"
