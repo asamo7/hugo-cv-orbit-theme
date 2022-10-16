@@ -235,7 +235,7 @@ disable404 = true
         [[params.projects.list]]
         title = "Nou Sistema d'Avaluació Digital"
         #url = "https://github.com/aerohub/hugrid"
-        tagline = "Arran de la pandèmia la UOC va haver d'implantar en temps rècord un nou sistema d'avaluació digital que permetés al 100% dels estudiants fer els exàmens finals de forma telemàtica"
+        tagline = "Arran de la pandèmia, la UOC va haver d'implantar en temps rècord un nou sistema d'avaluació digital que permetés al 100% dels estudiants fer els exàmens finals de forma telemàtica"
 
         [[params.projects.list]]
         title = "Migració CPD a AWS"
