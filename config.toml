@@ -181,7 +181,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Perfil"
-        summary = "Arquitecte amb més de 15 anys d'experiència havent desenvolupat diferents funcions tant de gestió com tècniques. Responsable de les oficines tècniques de Solucions d'Arquitectura i Suport Cloud de CTTI durant els 6 darrers anys. Apassionat de la tecnologia, sempre amb ganes d'aprendre i col·laborar per a l'èxit dels projectes. Especialment interessat en els camps d'**arquitectura d'aplicacions, Cloud i DevOps**."
+        summary = "Arquitecte amb prop de 20 anys d'experiència a l'àmbit tecnològic havent desenvolupat diferents funcions tant de gestió com tècniques. Responsable de l'ecosistema DevOps, plataforma LowCode, i arquitecte de referència del Grup Operatiu de Gestió Acadèmica i Docent a la UOC durant els darrers 4 anys. Apassionat de la tecnologia, sempre amb ganes d'aprendre i col·laborar per a l'èxit dels projectes."
 
     # Experiences section
     [params.experiences]
@@ -193,10 +193,10 @@ disable404 = true
         position = "IT Architect"
         dates = "2019 - Actualitat"
         company = "UOC (Universitat Oberta de Catalunya)"
-        details = "* Responsable de l'ecosistema DevOps i LowCode de la UOC, així com referent d'arquitectura del Grup Operatiu de Gestió Acadèmica i Docent. "
+        details = "* Responsable de l'ecosistema DevOps i LowCode de la UOC, així com referent d'arquitectura del Grup Operatiu de Gestió Acadèmica i Docent. Com a projectes més destacats: Nou Sistema d'Avaluació Digital, Migració CPD a AWS, Emissió de Certificats Digitals i Nous Fòrums."
 
         [[params.jobs.list]]
-        position = "Software & DevOps/Cloud Architect"
+        position = "Software & DevOps Architect"
         dates = "2012 - 2019"
         company = "openTrends, Barcelona"
         details = "* Responsable tecnològic de l’àrea d’arquitectura de TICxCAT en el manteniment, evolució i nous projectes desenvolupats pel CTTI. Suport a la definició de l'estratègia DevOps.\n* Des de 2016, responsable de la nova OT Suport Cloud destinada al suport tecnològic per al desplegament d‘aplicacions en entorns Cloud."
@@ -280,7 +280,7 @@ disable404 = true
         level = "95%"
 
         [[params.skills.list]]
-        skill = "Seguretat: JWT (Json Web Token), SAML 2.0"
+        skill = "Seguretat: JWT (Json Web Token), SAML, OAuth"
         level = "95%"
 
         [[params.skills.list]]
@@ -292,11 +292,19 @@ disable404 = true
         level = "95%"
 
         [[params.skills.list]]
-        skill = "Plataformes Cloud: IBM Bluemix, Azure, Openshift"
+        skill = "Plataformes Cloud: AWS, Azure, Openshift, IBM Bluemix"
         level = "95%"
 
         [[params.skills.list]]
-        skill = "Contenidors: Docker, Swarm, Kubernetes"
+        skill = "Contenidors: Docker, ECS, Swarm, Kubernetes"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Funcions: AWS Lambda"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Infraestructura com a codi (IaC): Terraform, Serverless"
         level = "95%"
 
         [[params.skills.list]]
@@ -312,6 +320,10 @@ disable404 = true
         level = "95%"
 
         [[params.skills.list]]
+        skill = "LowCode: OutSystems, AWS HoneyCode"
+        level = "95%"
+
+        [[params.skills.list]]
         skill = "Metodologies: SCRUM, Agile, ITIL"
         level = "70%"
 
@@ -324,7 +336,7 @@ disable404 = true
         level = "70%"
 
         [[params.skills.list]]
-        skill = "Anàlisi de qualitat/seguretat: Sonar, Kiuwan, Fortify, OWASP ZAP i DependencyCheck "
+        skill = "Anàlisi de qualitat/seguretat: Sonar, Kiuwan, Fortify, OWASP ZAP, Anchore i DependencyCheck"
         level = "70%"
 
         [[params.skills.list]]
@@ -340,7 +352,11 @@ disable404 = true
         level = "50%"
 
         [[params.skills.list]]
-        skill = "Angular"
+        skill = "Angular, React"
+        level = "30%"
+
+        [[params.skills.list]]
+        skill = "Mobile: React Native (Android, iOS)"
         level = "30%"
 
     # Recommendations section
