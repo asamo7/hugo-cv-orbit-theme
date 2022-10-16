@@ -227,35 +227,30 @@ disable404 = true
 
     # Projects section
     [params.projects]
-        enable = false
+        enable = true
         icon = "fa-archive"
         title = "Projectes"
-        intro = "A continuació es mostra un resum dels projectes més rellevants en els que he participat:"
+        intro = "A continuació es mostra un resum dels projectes més rellevants en els que he participat darrerament:"
 
         [[params.projects.list]]
-        title = "Hugrid"
+        title = "Nou Sistema d'Avaluació Digital"
         #url = "https://github.com/aerohub/hugrid"
-        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+        tagline = "Arran de la pandèmia la UOC va haver d'implantar en temps rècord un nou sistema d'avaluació digital que permetés al 100% dels estudiants fer els exàmens finals de forma telemàtica"
 
         [[params.projects.list]]
-        title = "Simple FAQ Theme for Hugo"
-        url = "https://github.com/aerohub/hugo-faq-theme"
-        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+        title = "Migració CPD a AWS"
+        #url = "https://github.com/aerohub/hugo-faq-theme"
+        tagline = "Migració de tots els sistemes d'informació existents al CPD de Castelldefels a AWS."
 
         [[params.projects.list]]
-        title = "Hugo Identity"
-        url = "https://github.com/aerohub/hugo-identity-theme"
-        tagline = "Little profile/card-style template for Hugo."
+        title = "Emissió de Certificats Digitals"
+        #url = "https://github.com/aerohub/hugo-identity-theme"
+        tagline = "Primera aplicació desenvolupada en una plataforma LowCode a la UOC, la qual permet la sol·licitud de certificats digitals per part dels estudiants i l'automatització en el procés de generació a partir d'unes plantilles predefinides."
 
         [[params.projects.list]]
-        title = "Orbit"
-        url = "https://github.com/aerohub/hugo-orbit-theme"
-        tagline = "Hugo Resume/CV Theme for Developers."
-
-        [[params.projects.list]]
-        title = "Me"
-        url = "https://github.com/aerohub/hugo-me-theme"
-        tagline = "A simple responsive Hugo theme for personal site."
+        title = "Nous Fòrums"
+        #url = "https://github.com/aerohub/hugo-orbit-theme"
+        tagline = "Implantació d'un nou sistema de fòrums el qual substitueix l'anterior amb més de 20 anys d'història. També desenvolupat sobre plataforma LowCode."
 
     # Skills section
     [params.skills]
@@ -284,7 +279,7 @@ disable404 = true
         level = "95%"
 
         [[params.skills.list]]
-        skill = "CI: Jenkins, Go"
+        skill = "CI: Jenkins, GitHub Actions, AWS CodePipeline, Go"
         level = "95%"
 
         [[params.skills.list]]
@@ -328,11 +323,11 @@ disable404 = true
         level = "70%"
 
         [[params.skills.list]]
-        skill = "Bases de dades: MySQL, Oracle, PostgreSQL, SQL Server"
+        skill = "Bases de dades: AWS RDS, AWS DynamoDB, MySQL, Oracle, PostgreSQL, SQL Server, MongoDB"
         level = "70%"
 
         [[params.skills.list]]
-        skill = "Traces i monitorització: Elasticsearch, Zipkin, Prometheus"
+        skill = "Traces i monitorització: AWS CloudWatch, Elasticsearch, Zipkin, Prometheus"
         level = "70%"
 
         [[params.skills.list]]
@@ -348,12 +343,12 @@ disable404 = true
         level = "70%"
 
         [[params.skills.list]]
-        skill = "Altres llenguatges: NodeJS, Golang"
+        skill = "Altres llenguatges: NodeJS, Golang, Python"
         level = "50%"
 
         [[params.skills.list]]
-        skill = "Angular, React"
-        level = "30%"
+        skill = "Frontend frameworks: Angular, React, Vue"
+        level = "50%"
 
         [[params.skills.list]]
         skill = "Mobile: React Native (Android, iOS)"
