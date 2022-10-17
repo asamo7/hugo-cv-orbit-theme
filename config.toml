@@ -235,7 +235,7 @@ disable404 = true
         [[params.projects.list]]
         title = "Nou Sistema d'Avaluació Digital"
         #url = "https://github.com/aerohub/hugrid"
-        tagline = "Arran de la pandèmia, la UOC va haver d'implantar en temps rècord un nou sistema d'avaluació digital que permetés al 100% dels estudiants fer els exàmens finals de forma telemàtica"
+        tagline = "Arran de la pandèmia, la UOC va haver d'implantar en temps rècord un nou sistema d'avaluació digital que permetés al 100% dels estudiants fer els exàmens finals de forma telemàtica."
 
         [[params.projects.list]]
         title = "Migració CPD a AWS"
@@ -279,7 +279,7 @@ disable404 = true
         level = "95%"
 
         [[params.skills.list]]
-        skill = "CI: Jenkins, GitHub Actions, AWS CodePipeline, Go"
+        skill = "CI/CD: Jenkins, GitHub Actions, AWS CodePipeline, Go, Ansible"
         level = "95%"
 
         [[params.skills.list]]
@@ -303,7 +303,7 @@ disable404 = true
         level = "95%"
 
         [[params.skills.list]]
-        skill = "Serveis: PaaS (Cloud Foundry), DBaaS (Compose, Atlas), SaaS (Algolia)"
+        skill = "PaaS: AWS Elastic Beanstalk, Cloud Foundry"
         level = "95%"
 
         [[params.skills.list]]
