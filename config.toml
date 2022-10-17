@@ -264,101 +264,104 @@ disable404 = true
         icon = "fa-rocket"
         title = "Coneixements"
 
-        [[params.skills.list]]
-        skill = "Java: Spring Framework, JHipster, JEE, Struts"
-        level = "95%"
+        [[params.skills.group]]
+        name = "Tècnics"
 
-        [[params.skills.list]]
-        skill = "Servidors d'aplicacions: Tomcat, Jetty, JBoss, Weblogic"
-        level = "95%"
+            [[params.skills.group.list]]
+            skill = "Java: Spring Framework, JHipster, JEE, Struts"
+            level = "95%"
 
-        [[params.skills.list]]
-        skill = "Servidors web: Apache, NGinx"
-        level = "95%"
+            [[params.skills.group.list]]
+            skill = "Servidors d'aplicacions: Tomcat, Jetty, JBoss, Weblogic"
+            level = "95%"
 
-        [[params.skills.list]]
-        skill = "Patrons Arquitectura: SOA, Microserveis, REST API, WS, MVC"
-        level = "95%"
+            [[params.skills.group.list]]
+            skill = "Servidors web: Apache, NGinx"
+            level = "95%"
 
-        [[params.skills.list]]
-        skill = "Seguretat: JWT (Json Web Token), SAML, OAuth"
-        level = "95%"
+            [[params.skills.group.list]]
+            skill = "Patrons Arquitectura: SOA, Microserveis, REST API, WS, MVC"
+            level = "95%"
 
-        [[params.skills.list]]
-        skill = "CI/CD: Jenkins, GitHub Actions, AWS CodePipeline, Go, Ansible"
-        level = "95%"
+            [[params.skills.group.list]]
+            skill = "Seguretat: JWT (Json Web Token), SAML, OAuth"
+            level = "95%"
 
-        [[params.skills.list]]
-        skill = "SCM: Git, SVN, CVS"
-        level = "95%"
+            [[params.skills.group.list]]
+            skill = "CI/CD: Jenkins, GitHub Actions, AWS CodePipeline, Go, Ansible"
+            level = "95%"
 
-        [[params.skills.list]]
-        skill = "Plataformes Cloud: AWS, Azure, Openshift, IBM Bluemix"
-        level = "95%"
+            [[params.skills.group.list]]
+            skill = "SCM: Git, SVN, CVS"
+            level = "95%"
 
-        [[params.skills.list]]
-        skill = "Contenidors: Docker, ECS, Swarm, Kubernetes"
-        level = "95%"
+            [[params.skills.group.list]]
+            skill = "Plataformes Cloud: AWS, Azure, Openshift, IBM Bluemix"
+            level = "95%"
 
-        [[params.skills.list]]
-        skill = "Funcions: AWS Lambda"
-        level = "95%"
+            [[params.skills.group.list]]
+            skill = "Contenidors: Docker, ECS, Swarm, Kubernetes"
+            level = "95%"
 
-        [[params.skills.list]]
-        skill = "Infraestructura com a codi (IaC): Terraform, Serverless"
-        level = "95%"
+            [[params.skills.group.list]]
+            skill = "Funcions: AWS Lambda"
+            level = "95%"
 
-        [[params.skills.list]]
-        skill = "PaaS: AWS Elastic Beanstalk, Cloud Foundry"
-        level = "95%"
+            [[params.skills.group.list]]
+            skill = "Infraestructura com a codi (IaC): Terraform, Serverless"
+            level = "95%"
 
-        [[params.skills.list]]
-        skill = "Gestió de projectes: Atlassian JIRA, Redmine"
-        level = "95%"
+            [[params.skills.group.list]]
+            skill = "PaaS: AWS Elastic Beanstalk, Cloud Foundry"
+            level = "95%"
 
-        [[params.skills.list]]
-        skill = "Formularis electrònics: Adobe Experience Manager, Orbeon, Form.io"
-        level = "95%"
+            [[params.skills.group.list]]
+            skill = "Gestió de projectes: Atlassian JIRA, Redmine"
+            level = "95%"
 
-        [[params.skills.list]]
-        skill = "LowCode: OutSystems, AWS HoneyCode"
-        level = "95%"
+            [[params.skills.group.list]]
+            skill = "Formularis electrònics: Adobe Experience Manager, Orbeon, Form.io"
+            level = "95%"
 
-        [[params.skills.list]]
-        skill = "Metodologies: SCRUM, Agile, ITIL"
-        level = "70%"
+            [[params.skills.group.list]]
+            skill = "LowCode: OutSystems, AWS HoneyCode"
+            level = "95%"
 
-        [[params.skills.list]]
-        skill = "Bases de dades: AWS RDS, AWS DynamoDB, MySQL, Oracle, PostgreSQL, SQL Server, MongoDB"
-        level = "70%"
+            [[params.skills.group.list]]
+            skill = "Metodologies: SCRUM, Agile, ITIL"
+            level = "70%"
 
-        [[params.skills.list]]
-        skill = "Traces i monitorització: AWS CloudWatch, Elasticsearch, Zipkin, Prometheus"
-        level = "70%"
+            [[params.skills.group.list]]
+            skill = "Bases de dades: AWS RDS, AWS DynamoDB, MySQL, Oracle, PostgreSQL, SQL Server, MongoDB"
+            level = "70%"
 
-        [[params.skills.list]]
-        skill = "Anàlisi de qualitat/seguretat: Sonar, Kiuwan, Fortify, OWASP ZAP, Anchore i DependencyCheck"
-        level = "70%"
+            [[params.skills.group.list]]
+            skill = "Traces i monitorització: AWS CloudWatch, Elasticsearch, Zipkin, Prometheus"
+            level = "70%"
 
-        [[params.skills.list]]
-        skill = "Web: HTML5, CSS3, Javascript, JQuery"
-        level = "70%"
+            [[params.skills.group.list]]
+            skill = "Anàlisi de qualitat/seguretat: Sonar, Kiuwan, Fortify, OWASP ZAP, Anchore i DependencyCheck"
+            level = "70%"
 
-        [[params.skills.list]]
-        skill = "Generadors de webs estàtiques: Hugo"
-        level = "70%"
+            [[params.skills.group.list]]
+            skill = "Web: HTML5, CSS3, Javascript, JQuery"
+            level = "70%"
 
-        [[params.skills.list]]
-        skill = "Altres llenguatges: NodeJS, Golang, Python"
-        level = "50%"
+            [[params.skills.group.list]]
+            skill = "Generadors de webs estàtiques: Hugo"
+            level = "70%"
 
-        [[params.skills.list]]
-        skill = "Frontend frameworks: Angular, React, Vue"
-        level = "50%"
+            [[params.skills.group.list]]
+            skill = "Altres llenguatges: NodeJS, Golang, Python"
+            level = "50%"
 
-        [[params.skills.list]]
-        skill = "Mobile: React Native (Android, iOS)"
-        level = "30%"
+            [[params.skills.group.list]]
+            skill = "Frontend frameworks: Angular, React, Vue"
+            level = "50%"
+
+            [[params.skills.group.list]]
+            skill = "Mobile: React Native (Android, iOS)"
+            level = "30%"
 
     # Recommendations section
     [params.recommendations]
