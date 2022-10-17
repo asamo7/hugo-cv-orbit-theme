@@ -181,7 +181,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Perfil"
-        summary = "Arquitecte amb prop de 20 anys d'experiència a l'àmbit tecnològic havent desenvolupat diferents funcions tant de gestió com tècniques. Responsable de l'ecosistema DevOps, plataforma LowCode, i arquitecte de referència del Grup Operatiu de Gestió Acadèmica i Docent a la UOC durant els darrers 4 anys. Apassionat de la tecnologia, sempre amb ganes d'aprendre i col·laborar per a l'èxit dels projectes."
+        summary = "Arquitecte amb prop de 20 anys d'experiència a l'àmbit tecnològic havent desenvolupat diferents funcions tant de gestió com tècniques. Responsable de l'ecosistema **DevOps**, plataforma **LowCode**, i **arquitecte de referència** del Grup Operatiu de Gestió Acadèmica i Docent a la UOC durant els darrers 4 anys. Apassionat de la tecnologia, sempre amb ganes d'aprendre i col·laborar per a l'èxit dels projectes."
 
     # Experiences section
     [params.experiences]
