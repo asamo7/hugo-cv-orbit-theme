@@ -40,16 +40,16 @@ disable404 = true
         enable = true
 
         [[params.contact.list]]
-        class = "location"
-        icon = "fa-location"
-        #url = "tel: 687045324"
+        class = "location-arrow"
+        icon = "fa-location-arrow"
+        url = "https://goo.gl/maps/ohEDM9CAq2QBHz5v6"
         title = "Cornellà de Llobregat"
 
         [[params.contact.list]]
         class = "phone"
         icon = "fa-phone"
-        url = "tel: 687045324"
-        title = "687045324"
+        url = "tel: +34 687045324"
+        title = "+34 687045324"
 
         [[params.contact.list]]
         class = "email"
