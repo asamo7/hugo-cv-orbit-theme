@@ -33,11 +33,17 @@ disable404 = true
     [params.profile]
         name = "Albert Sancho"
         tagline = "Arquitecte TI"
-        avatar = "profile.png"
+        #avatar = "profile.png"
 
     # Contact section
     [params.contact]
         enable = true
+
+        [[params.contact.list]]
+        class = "location"
+        icon = "fa-location"
+        #url = "tel: 687045324"
+        title = "Cornellà de Llobregat"
 
         [[params.contact.list]]
         class = "phone"
