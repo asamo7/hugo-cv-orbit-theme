@@ -196,7 +196,7 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "IT Architect"
+        position = "Solutions Architect"
         dates = "2019 - Actualitat"
         company = "UOC (Universitat Oberta de Catalunya)"
         details = "* Responsable de l'ecosistema DevOps i LowCode de la UOC, així com referent d'arquitectura del Grup Operatiu de Gestió Acadèmica i Docent. Com a projectes més destacats: Nou Sistema d'Avaluació Digital, Migració CPD a AWS, Emissió de Certificats Digitals i Nous Fòrums."
