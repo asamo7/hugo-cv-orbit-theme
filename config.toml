@@ -211,7 +211,7 @@ disable404 = true
         position = "Software Engineer"
         dates = "2007 - 2012"
         company = "openTrends, Barcelona"
-        details = "* Responsable tècnic i funcional del projecte de Governança radioelèctrica per al CTTI.\n* Responsable tècnic i funcional dels projectes de Estadístiques anuals i Butlletí de conjuntura energètica de Catalunya per l’ICAEN.\n* Responsable tècnic i funcional del projecte Linneo per el Grupo Godó.\n* Suport tècnic al desenvolupament de projectes amb openFrame per Danone.\n* Evolució de l'aplicació SAMC (Plataforma d'enviament de trameses) amb el mòdul de signatura de correus ASF per la Diputació de Barcelona.\n* Anàlisi i desenvolupament del projecte SGTFNM (Sistema de Gestió de Títols de Família Nombrosa i Monoparental) pel Departament de Benestar Social i Família."
+        details = "* Responsable tècnic i funcional de diferents projectes: ** Governança radioelèctrica per al CTTI.\n** Estadístiques anuals i Butlletí de conjuntura energètica de Catalunya per l’ICAEN.\n** Linneo per el Grupo Godó.\n* Suport tècnic al desenvolupament de projectes amb openFrame per Danone.\n* Evolució de l'aplicació SAMC (Plataforma d'enviament de trameses) amb el mòdul de signatura de correus ASF per la Diputació de Barcelona.\n* Anàlisi i desenvolupament del projecte SGTFNM (Sistema de Gestió de Títols de Família Nombrosa i Monoparental) pel Departament de Benestar Social i Família."
 
         [[params.jobs.list]]
         position = "Analista programador Java/JEE"
