@@ -264,7 +264,7 @@ disable404 = true
         icon = "fa-rocket"
         title = "Coneixements"
 
-        [[params.skills.devops]]
+        [params.skills.devops]
         title = "DevOps"
 
         [[params.skills.devops.list]]
@@ -307,7 +307,7 @@ disable404 = true
         skill = "Anàlisi de qualitat/seguretat: Sonar, Kiuwan, Fortify, OWASP ZAP, Anchore i DependencyCheck"
         level = "70%"
 
-        [[params.skills.architecture]]
+        [params.skills.architecture]
         title = "Arquitectura i Seguretat"
 
         [[params.skills.architecture.list]]
@@ -318,7 +318,7 @@ disable404 = true
         skill = "Seguretat: JWT (Json Web Token), SAML, OAuth"
         level = "95%"
 
-        [[params.skills.software]]
+        [params.skills.software]
         title = "Software"
 
         [[params.skills.software.list]]
@@ -365,7 +365,7 @@ disable404 = true
         skill = "Mobile: React Native (Android, iOS)"
         level = "30%"
 
-        [[params.skills.management]]
+        [params.skills.management]
         title = "Gestió"
 
         [[params.skills.management.list]]
