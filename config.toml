@@ -308,7 +308,7 @@ disable404 = true
         level = "70%"
 
         [params.skills.architecture]
-        title = "ARQUITECTURA I SEGURETAT"
+        title = "ARQUITECTURA/SEGURETAT"
 
         [[params.skills.architecture.list]]
         skill = "Patrons Arquitectura: SOA, Microservices, Event-Driven, REST API, WS, MVC"
