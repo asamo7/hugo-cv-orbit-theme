@@ -265,7 +265,7 @@ disable404 = true
         title = "Coneixements"
 
         [params.skills.devops]
-        title = "DevOps"
+        title = "DEVOPS"
 
         [[params.skills.devops.list]]
         skill = "Plataformes Cloud: AWS, Azure, Openshift, IBM Bluemix"
@@ -308,7 +308,7 @@ disable404 = true
         level = "70%"
 
         [params.skills.architecture]
-        title = "Arquitectura i Seguretat"
+        title = "ARQUITECTURA I SEGURETAT"
 
         [[params.skills.architecture.list]]
         skill = "Patrons Arquitectura: SOA, Microservices, Event-Driven, REST API, WS, MVC"
@@ -319,7 +319,7 @@ disable404 = true
         level = "95%"
 
         [params.skills.software]
-        title = "Software"
+        title = "SOFTWARE"
 
         [[params.skills.software.list]]
         skill = "LowCode: OutSystems, AWS HoneyCode"
@@ -366,7 +366,7 @@ disable404 = true
         level = "30%"
 
         [params.skills.management]
-        title = "Gestió"
+        title = "GESTIÓ"
 
         [[params.skills.management.list]]
         skill = "Gestió de projectes: Atlassian JIRA, Redmine"
