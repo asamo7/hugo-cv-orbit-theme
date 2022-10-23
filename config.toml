@@ -264,101 +264,117 @@ disable404 = true
         icon = "fa-rocket"
         title = "Coneixements"
 
-        [[params.skills.list]]
-        skill = "Java: Spring Framework, JHipster, JEE, Struts"
-        level = "95%"
+        [[params.skills.devops]]
+        title = "DevOps"
 
-        [[params.skills.list]]
-        skill = "Servidors d'aplicacions: Tomcat, Jetty, JBoss, Weblogic"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = "Servidors web: Apache, NGinx"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = "Patrons Arquitectura: SOA, Microserveis, REST API, WS, MVC"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = "Seguretat: JWT (Json Web Token), SAML, OAuth"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = "CI/CD: Jenkins, GitHub Actions, AWS CodePipeline, Go, Ansible"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = "SCM: Git, SVN, CVS"
-        level = "95%"
-
-        [[params.skills.list]]
+        [[params.skills.devops.list]]
         skill = "Plataformes Cloud: AWS, Azure, Openshift, IBM Bluemix"
         level = "95%"
 
-        [[params.skills.list]]
+        [[params.skills.devops.list]]
         skill = "Contenidors: Docker, ECS, Swarm, Kubernetes"
         level = "95%"
 
-        [[params.skills.list]]
+        [[params.skills.devops.list]]
         skill = "Funcions: AWS Lambda"
         level = "95%"
 
-        [[params.skills.list]]
+        [[params.skills.devops.list]]
         skill = "Infraestructura com a codi (IaC): Terraform, Serverless"
         level = "95%"
 
-        [[params.skills.list]]
+        [[params.skills.devops.list]]
         skill = "PaaS: AWS Elastic Beanstalk, Cloud Foundry"
         level = "95%"
 
-        [[params.skills.list]]
-        skill = "Gestió de projectes: Atlassian JIRA, Redmine"
+        [[params.skills.devops.list]]
+        skill = "DBaaS: AWS RDS, AWS DynamoDB"
         level = "95%"
 
-        [[params.skills.list]]
-        skill = "Formularis electrònics: Adobe Experience Manager, Orbeon, Form.io"
+        [[params.skills.devops.list]]
+        skill = "CI/CD: Jenkins, GitHub Actions, AWS CodePipeline, Ansible, Go"
         level = "95%"
 
-        [[params.skills.list]]
-        skill = "LowCode: OutSystems, AWS HoneyCode"
+        [[params.skills.devops.list]]
+        skill = "SCM: Git, SVN, CVS"
         level = "95%"
 
-        [[params.skills.list]]
-        skill = "Metodologies: SCRUM, Agile, ITIL"
-        level = "70%"
-
-        [[params.skills.list]]
-        skill = "Bases de dades: AWS RDS, AWS DynamoDB, MySQL, Oracle, PostgreSQL, SQL Server, MongoDB"
-        level = "70%"
-
-        [[params.skills.list]]
+        [[params.skills.devops.list]]
         skill = "Traces i monitorització: AWS CloudWatch, Elasticsearch, Zipkin, Prometheus"
         level = "70%"
 
-        [[params.skills.list]]
+        [[params.skills.devops.list]]
         skill = "Anàlisi de qualitat/seguretat: Sonar, Kiuwan, Fortify, OWASP ZAP, Anchore i DependencyCheck"
         level = "70%"
 
-        [[params.skills.list]]
+        [[params.skills.architecture]]
+        title = "Arquitectura i Seguretat"
+
+        [[params.skills.architecture.list]]
+        skill = "Patrons Arquitectura: SOA, Microservices, Event-Driven, REST API, WS, MVC"
+        level = "95%"
+
+        [[params.skills.architecture.list]]
+        skill = "Seguretat: JWT (Json Web Token), SAML, OAuth"
+        level = "95%"
+
+        [[params.skills.software]]
+        title = "Software"
+
+        [[params.skills.software.list]]
+        skill = "LowCode: OutSystems, AWS HoneyCode"
+        level = "95%"
+
+        [[params.skills.software.list]]
+        skill = "Java: Spring Framework, JHipster, JEE, Struts"
+        level = "95%"
+
+        [[params.skills.software.list]]
+        skill = "Servidors d'aplicacions: Tomcat, Jetty, JBoss, Weblogic"
+        level = "95%"
+
+        [[params.skills.software.list]]
+        skill = "Servidors web: Apache, NGinx"
+        level = "95%"
+
+        [[params.skills.software.list]]
+        skill = "Bases de dades: MySQL, Oracle, PostgreSQL, SQL Server, MongoDB"
+        level = "95%"
+
+        [[params.skills.software.list]]
+        skill = "Formularis electrònics: Adobe Experience Manager, Orbeon, Form.io"
+        level = "95%"
+
+        [[params.skills.software.list]]
         skill = "Web: HTML5, CSS3, Javascript, JQuery"
         level = "70%"
 
-        [[params.skills.list]]
+        [[params.skills.software.list]]
         skill = "Generadors de webs estàtiques: Hugo"
         level = "70%"
 
-        [[params.skills.list]]
+        [[params.skills.software.list]]
         skill = "Altres llenguatges: NodeJS, Golang, Python"
         level = "50%"
 
-        [[params.skills.list]]
+        [[params.skills.software.list]]
         skill = "Frontend frameworks: Angular, React, Vue"
         level = "50%"
 
-        [[params.skills.list]]
+        [[params.skills.software.list]]
         skill = "Mobile: React Native (Android, iOS)"
         level = "30%"
+
+        [[params.skills.management]]
+        title = "Gestió"
+
+        [[params.skills.management.list]]
+        skill = "Gestió de projectes: Atlassian JIRA, Redmine"
+        level = "95%"
+
+        [[params.skills.management.list]]
+        skill = "Metodologies: SCRUM, Agile, ITIL"
+        level = "70%"
 
     # Recommendations section
     [params.recommendations]
